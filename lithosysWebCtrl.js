@@ -26,6 +26,7 @@ Max.addHandler("connect", () => {
 	});
 	ws.on('close', function open() {
 		Max.post('WebSocket Closed ('+wsServer+')');
+		Max.outlet("closed");
 	});
 	ws.on('message', function received(message) {
 		msg = JSON.parse(message);
