@@ -1,0 +1,19 @@
+{
+	"pattrstorage" : 	{
+		"name" : "LimiterPrefs",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slider" : [ 49 ],
+					"slider[1]" : [ 23 ],
+					"slider[2]" : [ 33 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
