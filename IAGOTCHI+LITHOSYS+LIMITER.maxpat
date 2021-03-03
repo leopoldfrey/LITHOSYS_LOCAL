@@ -319,12 +319,12 @@
 									"restore" : 									{
 										"slider" : [ 49 ],
 										"slider[1]" : [ 23 ],
-										"slider[2]" : [ 33 ]
+										"slider[2]" : [ 29 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u583000690"
+									"varname" : "u448000515"
 								}
 
 							}
@@ -819,7 +819,7 @@
 													"fontsize" : 14.0,
 													"hint" : "",
 													"id" : "obj-4",
-													"items" : [ "Built-in Output", ",", "Scarlett 2i2 USB", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+													"items" : [ "Built-in Output", ",", "HDMI", ",", "Scarlett 2i2 USB", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -1379,6 +1379,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-40",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -1387,7 +1388,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 141.769226, 182.0, 51.0, 22.0 ],
 									"style" : "",
-									"text" : "-8 dB"
+									"text" : "-10 dB"
 								}
 
 							}
@@ -6188,7 +6189,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 284.0, 409.0, 859.0, 506.0 ],
+						"rect" : [ 346.0, 228.0, 859.0, 506.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6634,7 +6635,7 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 74.5, 22.0, 63.0, 22.0 ],
 									"style" : "",
-									"text" : "del 12000"
+									"text" : "del 26000"
 								}
 
 							}
