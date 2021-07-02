@@ -11,12 +11,8 @@ var username = "IAgotchi";
 var usercolor = "#CC0000";
 var usertype = "machine";
 
-Max.addHandler("setSocketAddress", (msg) => {
-	wsServer = msg;
-	Max.post('WebSocket to '+wsServer);
-});
-
-Max.addHandler("connect", () => {
+function connect() {
+	Max.post("Connecting...");
 	ws = new WebSocket(wsServer);
 	ws.on('open', function open() {
 		Max.post('WebSocket Opened ('+wsServer+')');
@@ -43,12 +39,21 @@ Max.addHandler("connect", () => {
 			Max.post('Websocket received : '+msg.command);
 		}
 	});
+}
+
+Max.addHandler("setSocketAddress", (msg) => {
+	wsServer = msg;
+	Max.post('WebSocket to '+wsServer);
+});
+
+Max.addHandler("connect", () => {
+	connect();
 });
 
 Max.addHandler("send", (message) => {
 	ws.send(JSON.stringify(
 		{
-			charset : 'utf8mb4', 
+			charset : 'utf8mb4',
 			command: "newmess",
 			name: username,
 			type: usertype,
@@ -61,11 +66,17 @@ Max.addHandler("send", (message) => {
 Max.addHandler("keepAlive", (msg) => {
 	//const ws = new WebSocket(wsServer);
 	//ws.on('open', function open() {
-		ws.send(JSON.stringify(
+	//if(ws)
+	//	Max.post('WebSocket state : '+ws.readyState);
+	if(ws.readyState == 1) {
+			ws.send(JSON.stringify(
 			{
-				charset : 'utf8mb4', 
+				charset : 'utf8mb4',
 				command: "keepAlive"
 			}));
+	} else {
+		connect();
+	}
 	//	ws.close();
 	//	});
 });
