@@ -59,13 +59,13 @@ Max.addHandler("send", (message) => {
 });
 
 Max.addHandler("keepAlive", (msg) => {
-	const ws = new WebSocket(wsServer);
-	ws.on('open', function open() {
+	//const ws = new WebSocket(wsServer);
+	//ws.on('open', function open() {
 		ws.send(JSON.stringify(
 			{
 				charset : 'utf8mb4', 
 				command: "keepAlive"
 			}));
-		ws.close();
-	});
+	//	ws.close();
+	//	});
 });
