@@ -2343,11 +2343,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 496.0, 121.0, 181.0, 20.0 ],
+									"patching_rect" : [ 496.0, 121.0, 160.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 163.0, 48.164835164835168, 152.0, 33.0 ],
-									"text" : "< sortie scarlett 2 vers enceintes"
+									"presentation_rect" : [ 163.0, 48.164835164835168, 152.0, 20.0 ],
+									"text" : "< sortie ordi vers enceintes"
 								}
 
 							}
@@ -2357,11 +2356,21 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 359.0, 215.0, 170.0, 20.0 ],
+									"patching_rect" : [ 359.0, 215.0, 160.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 163.0, 83.329670329670336, 160.0, 33.0 ],
-									"text" : "< sortie scarlett 1 vers cailloux"
+									"presentation_rect" : [ 163.0, 83.329670329670336, 160.0, 20.0 ],
+									"text" : "< sortie scarlett vers cailloux"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 236.0, 169.0, 55.0, 22.0 ],
+									"text" : "dac~ 3 4"
 								}
 
 							}
@@ -3675,8 +3684,8 @@
 										"styles" : [ 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3805,13 +3814,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-17",
-													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 268.308594000000028, 245.299194, 50.0, 49.0 ],
-													"text" : "\"Scarlett 2i2 USB\""
+													"patching_rect" : [ 273.641113000000018, 263.299194, 44.0, 22.0 ],
+													"text" : "LITHO"
 												}
 
 											}
@@ -4131,7 +4139,7 @@
 													"fontsize" : 14.0,
 													"hint" : "",
 													"id" : "obj-4",
-													"items" : [ "None", ",", "Built-in Output", ",", "BlackHole" ],
+													"items" : [ "None", ",", "Built-in Output", ",", "BlackHole", ",", "LITHO" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -4692,14 +4700,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"order" : 2,
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-55", 0 ],
 									"order" : 1,
 									"source" : [ "obj-24", 0 ]
 								}
@@ -4709,6 +4709,23 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 1 ],
+									"midpoints" : [ 245.5, 154.5, 281.5, 154.5 ],
+									"order" : 1,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"order" : 2,
+									"source" : [ "obj-30", 0 ]
 								}
 
 							}
@@ -4724,7 +4741,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
-									"order" : 1,
+									"order" : 3,
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -4732,7 +4749,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 1 ],
-									"order" : 2,
+									"order" : 4,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"order" : 5,
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -4741,8 +4766,8 @@
 						"styles" : [ 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6285,8 +6310,8 @@
 , 											{
 												"name" : "arialbold",
 												"default" : 												{
-													"fontname" : [ "Arial Bold" ],
-													"fontsize" : [ 10.0 ]
+													"fontsize" : [ 10.0 ],
+													"fontname" : [ "Arial Bold" ]
 												}
 ,
 												"parentstyle" : "",
@@ -6995,8 +7020,8 @@
 , 											{
 												"name" : "arialbold",
 												"default" : 												{
-													"fontname" : [ "Arial Bold" ],
-													"fontsize" : [ 10.0 ]
+													"fontsize" : [ 10.0 ],
+													"fontname" : [ "Arial Bold" ]
 												}
 ,
 												"parentstyle" : "",
@@ -7576,8 +7601,8 @@
 , 											{
 												"name" : "arialbold",
 												"default" : 												{
-													"fontname" : [ "Arial Bold" ],
-													"fontsize" : [ 10.0 ]
+													"fontsize" : [ 10.0 ],
+													"fontname" : [ "Arial Bold" ]
 												}
 ,
 												"parentstyle" : "",
@@ -8878,6 +8903,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 1
 									}
 ,
@@ -9210,8 +9237,8 @@
 , 							{
 								"name" : "arialbold",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -9656,8 +9683,8 @@
 , 			{
 				"name" : "arialbold",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -9666,8 +9693,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
