@@ -11,21 +11,21 @@ class DownThread(Thread):
         self.dest = dest
         self.osc_client = osc_client
         print(" <-- " + self.textinput)
-        
+
     def run(self):
         translation = str(google_translator().translate(self.textinput, lang_tgt='es'))
         print(" --> " + translation)
         self.osc_client.send('/result',translation)
 
 class GoogleTrans:
-    
+
     def __init__(self, osc_server_port=7860, osc_client_host='127.0.0.1', osc_client_port=7861):
         self.dest = 'es'
         self.osc_server = Server('127.0.0.1', osc_server_port, self.callback)
         self.osc_client = Client(osc_client_host, osc_client_port)
-        
+
         print("GoogleTrans Ready")
-            
+
     def callback(self, address, *args):
         if(address == '/dest'):
             self.dest = str(args[0])
@@ -42,7 +42,7 @@ class GoogleTrans:
             print("callback : "+str(address))
             for x in range(0,len(args)):
                 print("     " + str(args[x]))
-            
+
     def translate(self, message):
         thd = DownThread(message, self.dest, self.osc_client);
         thd.start();

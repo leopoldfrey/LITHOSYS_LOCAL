@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -181,8 +181,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -334,8 +334,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -458,8 +458,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -528,6 +528,7 @@
 													"enablevscroll" : 0,
 													"id" : "obj-38",
 													"lockeddragscroll" : 0,
+													"lockedsize" : 0,
 													"maxclass" : "bpatcher",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -537,8 +538,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 11,
+															"minor" : 2,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -756,6 +757,22 @@
 																	"presentation" : 1,
 																	"presentation_rect" : [ 65.5, 15.721527099609375, 52.0, 48.0 ],
 																	"saved_attribute_attributes" : 																	{
+																		"activedialcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"textcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"activefgdialcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"activeneedlecolor" : 																		{
+																			"expression" : ""
+																		}
+,
 																		"valueof" : 																		{
 																			"parameter_initial" : [ 0 ],
 																			"parameter_initial_enable" : 1,
@@ -805,6 +822,22 @@
 																	"presentation" : 1,
 																	"presentation_rect" : [ 11.5, 15.721527099609375, 52.0, 48.0 ],
 																	"saved_attribute_attributes" : 																	{
+																		"activedialcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"textcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"activefgdialcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"activeneedlecolor" : 																		{
+																			"expression" : ""
+																		}
+,
 																		"valueof" : 																		{
 																			"parameter_initial" : [ 0 ],
 																			"parameter_initial_enable" : 1,
@@ -1036,6 +1069,7 @@
 													"enablevscroll" : 0,
 													"id" : "obj-2",
 													"lockeddragscroll" : 0,
+													"lockedsize" : 0,
 													"maxclass" : "bpatcher",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -1045,8 +1079,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 11,
+															"minor" : 2,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1837,6 +1871,18 @@
 																	"presentation" : 1,
 																	"presentation_rect" : [ 79.0, 44.292228999999999, 44.0, 48.0 ],
 																	"saved_attribute_attributes" : 																	{
+																		"activedialcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"textcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"activeneedlecolor" : 																		{
+																			"expression" : ""
+																		}
+,
 																		"valueof" : 																		{
 																			"parameter_initial" : [ 20 ],
 																			"parameter_initial_enable" : 1,
@@ -1895,6 +1941,18 @@
 																	"presentation" : 1,
 																	"presentation_rect" : [ 4.0, 44.292228999999999, 70.0, 48.0 ],
 																	"saved_attribute_attributes" : 																	{
+																		"activedialcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"textcolor" : 																		{
+																			"expression" : ""
+																		}
+,
+																		"activeneedlecolor" : 																		{
+																			"expression" : ""
+																		}
+,
 																		"valueof" : 																		{
 																			"parameter_initial" : [ 0.1 ],
 																			"parameter_initial_enable" : 1,
@@ -1938,6 +1996,7 @@
 																	"enablevscroll" : 0,
 																	"id" : "obj-11",
 																	"lockeddragscroll" : 0,
+																	"lockedsize" : 0,
 																	"maxclass" : "bpatcher",
 																	"name" : "background_sm.maxpat",
 																	"numinlets" : 0,
@@ -2389,8 +2448,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2661,8 +2720,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 11,
+															"minor" : 2,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3675,8 +3734,8 @@
 										"styles" : [ 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3719,8 +3778,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3923,8 +3982,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 11,
+															"minor" : 2,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4158,8 +4217,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 1,
-															"revision" : 11,
+															"minor" : 2,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4649,14 +4708,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"order" : 3,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
 									"order" : 2,
 									"source" : [ "obj-1", 0 ]
 								}
@@ -4664,9 +4715,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"midpoints" : [ 135.5, 97.5, 245.5, 97.5 ],
-									"order" : 0,
+									"destination" : [ "obj-24", 0 ],
+									"order" : 1,
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -4675,15 +4725,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
 									"midpoints" : [ 135.5, 87.0, 180.0, 87.0, 180.0, 44.0, 201.5, 44.0 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"midpoints" : [ 194.0, 190.0 ],
+									"destination" : [ "obj-30", 0 ],
 									"order" : 0,
 									"source" : [ "obj-24", 0 ]
 								}
@@ -4691,8 +4740,17 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"midpoints" : [ 194.0, 190.0 ],
+									"order" : 1,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"order" : 2,
+									"order" : 3,
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -4700,7 +4758,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -4741,8 +4799,8 @@
 						"styles" : [ 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4957,8 +5015,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5164,8 +5222,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5676,8 +5734,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6319,8 +6377,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6575,8 +6633,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7056,8 +7114,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7612,8 +7670,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8290,8 +8348,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8536,8 +8594,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8878,6 +8936,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 1
 									}
 ,
@@ -9315,6 +9375,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 9.5, 70.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
+						"activetextoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "stopped", "started" ],
 							"parameter_linknames" : 1,
@@ -9613,6 +9689,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "mxj.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "h.shell.mxo",
 				"type" : "iLaX"
 			}
@@ -9666,8 +9746,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
