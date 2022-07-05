@@ -1227,7 +1227,7 @@
 															}
 , 															{
 																"box" : 																{
-																	"bgcolor" : [ 0.0, 146.0, 255.0, 1.0 ],
+																	"bgcolor" : [ 0.0, 146.0, 255.0, 0.0 ],
 																	"id" : "obj-9",
 																	"ignoreclick" : 1,
 																	"maxclass" : "textbutton",
@@ -5001,7 +5001,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -5048,7 +5047,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-14",
@@ -9137,6 +9135,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 1
 									}
 ,
