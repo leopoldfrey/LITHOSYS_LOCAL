@@ -1,6 +1,10 @@
 
-OSC-route.mxo/Contents/Info.plist
-OSC-route.mxo/Contents/MacOS/OSC-route
+OSC-route.mxo/*
+shell.mxo/*
+shell.maxhelp
+shell.mxe*
 .project
 .pydevproject
 .settings/org.eclipse.core.resources.prefs
+
+__pycache__/*
