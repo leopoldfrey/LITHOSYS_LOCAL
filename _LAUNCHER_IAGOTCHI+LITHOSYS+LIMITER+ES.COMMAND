@@ -14,10 +14,11 @@ echo opening IAGOGENERATOR
 open ../IAGOGENERATOR/LAUNCHER_IAGOGENERATOR.COMMAND &
 
 echo opening IAGOGOTCHI+LITHOSYS+LIMITER
-open ./IAGOTCHI+LITHOSYS+LIMITER_ES.maxpat &
+#open ./IAGOTCHI+LITHOSYS+LIMITER_ES.maxpat &
+open ./LYTHO_NEW_ES.maxpat &
 
-echo opening VOCODER LIVE SET
-open ./LITHOLOCAL_VOCODER/LITHOLOCAL_VOCODER.als &
+#echo opening VOCODER LIVE SET
+#open ./LITHOLOCAL_VOCODER/LITHOLOCAL_VOCODER.als &
 
 Exho opening ES Translator
 python3 -W ignore ./GoogleTrans_ES.py

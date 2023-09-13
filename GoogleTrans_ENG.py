@@ -1,6 +1,6 @@
 import sys
 from threading import Thread
-from google_trans_new import google_translator
+from googletrans import Translator
 from pyosc import Server, Client
 
 class DownThread(Thread):
@@ -12,7 +12,7 @@ class DownThread(Thread):
         print(self.dest, " <-- ", self.textinput)
 
     def run(self):
-        translation = google_translator().translate(self.textinput, lang_tgt=self.dest)
+        translation = str(Translator().translate(self.textinput, dest=self.dest)).split("text=",1)[1].split(", pronunciation=")[0]
         print(" --> ", translation)
         self.osc_client.send('/result',translation)
 
@@ -49,7 +49,6 @@ class GoogleTrans:
 
 if __name__ == '__main__':
 
-    print(google_translator().translate('สวัสดีจีน',lang_tgt='en'))
     if len(sys.argv) == 1:
         GoogleTrans();
     elif len(sys.argv) == 4:
